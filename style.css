@@ -1,0 +1,65 @@
+*{
+    background-color: rgb(13, 13, 45);
+    color: #FFFFFF;
+}
+.wwe{
+    background-color: #232028;
+    color: #FFFFFF;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    background-color: #BFAFF2;
+    width: 175px;
+    height: 50px;
+    border-radius: 15px;
+}
+.diva{
+    width: 4px;
+    height: 4px;
+    display: flex;
+    gap: 160px;
+}
+.mma{
+    width: 225px;
+    height: 240px;
+    border-radius: 32px;
+    /* background-color: #232028; */
+    /* border: 2px solid red; */
+    color: #FFFFFF;
+    background-color: #232028;
+}
+.mma h1{
+    text-align: center;
+}
+.section{
+    display: flex;
+}
+.footer{
+    margin-top: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #0a0a1a; /* тёмно-синий фон, как на картинке */
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+  color: #a78bfa;  
+}
